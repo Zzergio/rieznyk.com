@@ -1,0 +1,107 @@
+@media (max-width: 820px) {
+.menu_icon {
+  display: inline-block;
+  z-index: 2000;
+}
+  
+.nav {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-flow: column wrap; 
+  align-items: flex-end;
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  padding: 45px 0;
+  padding-top: 140px;
+  height: 100vh;
+}
+
+.nav li {
+  padding: 0 0 25px 0;
+  margin: 0;
+}
+
+.nav li:last-child {
+  padding-bottom: 0;
+} 
+  
+.nav a {
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+}
+
+.slogan-wrap {
+  margin-bottom:25px;
+}
+
+.large-slogan {
+  font-size: 62px;
+}
+
+.about-wrap {
+  flex-flow: column nowrap;
+}
+
+.about {
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+.footer-wrap {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.social, .f-button {
+  margin-bottom: 20px;
+}
+
+}
+
+@media (max-width: 650px) {
+ 
+.large-slogan {
+  font-size: 48px;
+}
+
+.text-slogan {
+  font-size: 18px;
+}
+
+.footer{
+  flex-flow: column nowrap;
+}
+
+}
+
+@media (max-width: 520px) {
+ 
+.large-slogan {
+  font-size: 30px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.slogan-wrap {
+  height: 75vh;
+  margin-bottom:100px;
+}
+
+.face img {
+  width: 90%;
+ }
+
+}
